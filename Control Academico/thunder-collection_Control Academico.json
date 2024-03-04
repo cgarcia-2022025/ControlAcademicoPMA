@@ -1,0 +1,319 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Control Academico",
+    "dateExported": "2024-03-04T05:08:17.501Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "805c6689-459a-4809-b8b9-38ed04a57525",
+            "name": "user",
+            "containerId": "",
+            "created": "2024-03-04T02:14:58.321Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "16c5b6cc-f5fd-46bb-a547-dc324be98d0d",
+            "name": "asignaturas",
+            "containerId": "",
+            "created": "2024-03-04T03:06:12.791Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "ab41cba6-1aff-45ff-a0bc-8ed31227bb6b",
+            "name": "asignacionCursos",
+            "containerId": "",
+            "created": "2024-03-04T03:57:00.696Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "9a9859f6-2d6c-4f3c-840d-9b490e07b249",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "805c6689-459a-4809-b8b9-38ed04a57525",
+            "name": "register",
+            "url": "register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T02:15:03.825Z",
+            "modified": "2024-03-04T02:18:27.988Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Jose"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Valverde"
+                    },
+                    {
+                        "name": "username",
+                        "value": "JoseValverde"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "jose_valverde@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "f236b171-84a9-4b91-948b-a8adb5c337ef",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "805c6689-459a-4809-b8b9-38ed04a57525",
+            "name": "registerTh",
+            "url": "registerTh",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-04T02:35:55.550Z",
+            "modified": "2024-03-04T03:21:17.789Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Isaias"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Lopez"
+                    },
+                    {
+                        "name": "username",
+                        "value": "ilopez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "ilopez@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4840afda-3548-485d-bacc-93325dfaadb2",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "805c6689-459a-4809-b8b9-38ed04a57525",
+            "name": "login",
+            "url": "login",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2024-03-04T02:19:00.569Z",
+            "modified": "2024-03-04T05:07:25.592Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "ilopez"
+                    },
+                    {
+                        "name": "email",
+                        "value": "ilopez@gmail.com",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "23954c8b-9d55-43da-b6e9-012a7e3f704c",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "805c6689-459a-4809-b8b9-38ed04a57525",
+            "name": "update",
+            "url": "update/65e5301ae4f466c1f76e06ca",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-04T02:41:00.045Z",
+            "modified": "2024-03-04T02:46:24.579Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Jose"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "17b62bc5-79dd-4538-993e-f56b02d63b08",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "805c6689-459a-4809-b8b9-38ed04a57525",
+            "name": "deleteU",
+            "url": "deleteU/65e5301ae4f466c1f76e06ca",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-04T02:49:05.936Z",
+            "modified": "2024-03-04T02:50:07.914Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "61a95adc-1427-4159-ab07-406a93e68b4b",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "16c5b6cc-f5fd-46bb-a547-dc324be98d0d",
+            "name": "newAsignature",
+            "url": "newAsignature",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-04T03:06:19.016Z",
+            "modified": "2024-03-04T05:07:46.504Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Español"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Clase de Español."
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "57b03c30-0325-4857-bc6d-e0634fd77d5b",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "16c5b6cc-f5fd-46bb-a547-dc324be98d0d",
+            "name": "updateAsignature",
+            "url": "updateAsignature/65e5408df042741f12fad8bc",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-03-04T03:16:39.683Z",
+            "modified": "2024-03-04T05:07:53.986Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Idioma"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ec3ee43c-d770-4fa3-b555-a573a211f189",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "16c5b6cc-f5fd-46bb-a547-dc324be98d0d",
+            "name": "deleteAsignature",
+            "url": "deleteAsignature/65e53b78ff37a36a616a4516",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-03-04T03:29:36.286Z",
+            "modified": "2024-03-04T03:30:22.810Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cc5ab225-5f74-4bf6-87d7-e8a9efbe8f9e",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "16c5b6cc-f5fd-46bb-a547-dc324be98d0d",
+            "name": "getMyAsignatures",
+            "url": "getMyAsignatures",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-04T03:46:34.237Z",
+            "modified": "2024-03-04T03:46:37.921Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d9161c2c-1ce9-481b-a3d2-98ba282ccd7f",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "ab41cba6-1aff-45ff-a0bc-8ed31227bb6b",
+            "name": "newAsignation",
+            "url": "newAsignation",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-03-04T04:23:30.091Z",
+            "modified": "2024-03-04T04:45:01.340Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "asignature",
+                        "value": "65e551af8d64a75063e80741"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "efa10434-4d69-485a-b348-2ff28e6b05d1",
+            "colId": "76a95e33-908b-4fed-bf4a-caeae194dfef",
+            "containerId": "ab41cba6-1aff-45ff-a0bc-8ed31227bb6b",
+            "name": "getMyCourses",
+            "url": "getMyCourses",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-03-04T04:47:36.238Z",
+            "modified": "2024-03-04T04:47:39.202Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "headers": [
+            {
+                "name": "authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MzQwNjYwODQyZWZhZTkzMTU5ZjciLCJ1c2VybmFtZSI6Im1wZXJleiIsIm5hbWUiOiJNaWd1ZWwiLCJpYXQiOjE3MDk1Mjg0NDMsImV4cCI6MTcwOTUzNTY0M30.jB0HdZV9qLvBhlAnQW0G0zd_lM9rj22awWCZj5T2HR4"
+            }
+        ],
+        "options": {
+            "baseUrl": "localhost:2658/"
+        }
+    }
+}
